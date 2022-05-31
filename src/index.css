@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+h2 {
+    margin: 0;
+
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: min(400px, 80%);
+  box-shadow: 1px 1px 8px 0 #0009;
+  position: relative;
+  
+}
+
+.card-quote {
+  font-size:20px;
+
+}
+
+.card-author {
+  font-size: 15px
+  
+
+}
+
+.button {
+  display:block;
+  font-size: 15px;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  position: relative; 
+  left: 90%;
+  transition: translateX(-90%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+  color: white;
+  
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+
+.btn-card {
+  width: 100%;
+  text-align: end;
+}
